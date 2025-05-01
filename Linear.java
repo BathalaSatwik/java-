@@ -1,9 +1,9 @@
 public class Linear{
     public static void main(String[] args) { //linear search
         int arr[]={1,2,3,4,5,6,7};
-        int key=7;
+        int key=1;
         int answer=linear(arr,key);
-        if(answer>0){
+        if(answer>=0){
             System.out.println("Element found:"+answer);
         }
         else{
